@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="er" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task(1).css">
+    <title>Task(1)</title>
+</head>
+
+<body>
+    <header>
+        <h1> مقارنة بين:- </h1>
+        <nav>
+            <a href="#m1" class="m1">marquee</a>
+            <a href="#a1" class="a1">animation</a>
+        </nav>
+    </header>
+    <main>
+        <div class="m">
+            <video src="marquee_car.mp4" controls autoplay loop></video>
+            <hr>
+            <marquee behavior="slide" direction="rtl">
+                <!--  slide =move to end
+                 scorll= auto move
+                 alternate = moving then reverse -->
+
+                <p> Limited movement </p>
+                <img src="Vorsteiner-CLS63-AMG-Mercedes.png">
+            </marquee>
+            <hr>
+            <h2 id="m1">deprecated </h2>
+            <ul>
+                <li>Marquee هو عنصر HTML  قديم بيستخدم لتحريك النصوص والصور في اتجاهات مختلفة ومحددة.</li>
+                <li>يعتبر Deprecated، يعني تم إهماله ومش مستحسن استخدامه في المواقع الحديثة.</li>
+                <li>من خصائصه direction لتحديد الاتجاه وbehavior لتحديد طريقة الحركة.</li>
+
+            </ul>
+        </div>
+        <div class="n">
+            <video src="css_transform_car.mp4" controls autoplay loop ></video>
+            <hr>
+            <p>create movement </p>
+            <img src="bcfbc726-a3dc-47fe-b62b-ffb529a0b1df.png" alt="">
+            <hr>
+            <h2 id="a1">flexibilite</h2>
+            <ul>
+                <li>Animation هي خاصية في CSS بتستخدم لعمل حركة للعناصر على صفحة الويب.</li>
+                <li>بنستخدم @keyframes لتحديد شكل الحركة من البداية للنهاية.</li>
+                <li>بتتميز إنها بتدينا تحكم أكبر في سرعة الحركة واتجاهها وعدد مرات تكرارها.</li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>
